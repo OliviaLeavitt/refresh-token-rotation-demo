@@ -1,0 +1,14 @@
+{
+  "name": "refresh-rotation-playground",
+  "version": "1.0.0",
+  "description": "Small project to demonstrate refresh token rotation and replay attack protection.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
